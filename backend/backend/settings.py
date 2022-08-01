@@ -49,7 +49,8 @@ CORS_ORIGIN_WHITELIST = (
     'exp://192.168.20.172:19000',
     'exp://wc-f6v.anonymous.my-project.exp.direct:80'
     'http://192.168.20.60:19006',
-    'restframeworkbecasandlogin.herokuapp.com'
+    'restframeworkbecasandlogin.herokuapp.com',
+    '186.86.34.14'
 )
 
 MIDDLEWARE = [
@@ -154,6 +155,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:19006',
     'restframeworkbecasandlogin.herokuapp.com',
+    '186.86.34.14'
 ]
 
 ALLOWED_HOSTS = [
@@ -165,7 +167,8 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.20.172',
     '192.168.20.60',
-    '10.38.1.215'
+    '10.38.1.215',
+    '186.86.34.14'
 ]
 
 #ALLOWED_HOSTS=['*']
