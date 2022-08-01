@@ -156,6 +156,7 @@ CORS_ALLOWED_ORIGINS = [
 
 ALLOWED_HOSTS = [
     'localhost',
+    'restframeworkbecasandlogin.herokuapp.com',
     'http://192.168.20.172:19006',
     'http://192.168.20.60:19006'
     '10.0.2.2',
