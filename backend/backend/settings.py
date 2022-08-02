@@ -42,16 +42,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
 ]
 
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
-    'http://192.168.20.172:19006',
-    'http://192.168.20.172:19002',
-    'exp://192.168.20.172:19000',
-    'exp://wc-f6v.anonymous.my-project.exp.direct:80'
-    'http://192.168.20.60:19006',
-    'restframeworkbecasandlogin.herokuapp.com',
-    
-)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -151,23 +141,7 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL="becas.User"
 ACCOUNT_UNIQUE_EMAIL = True
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://localhost:19006',
-    'restframeworkbecasandlogin.herokuapp.com',
-]
 
-ALLOWED_HOSTS = [
-    'localhost',
-    'http://192.168.20.172:19006',
-    'http://192.168.20.60:19006'
-    '10.0.2.2',
-    '127.0.0.1',
-    '192.168.20.172',
-    '192.168.20.60',
-    '10.38.1.215',
-    'restframeworkbecasandlogin.herokuapp.com',
-]
 
-#ALLOWED_HOSTS=['*']
-#CORS_ORIGIN_ALLOW_ALL = True
+ALLOWED_HOSTS=['*']
+CORS_ORIGIN_ALLOW_ALL = True
