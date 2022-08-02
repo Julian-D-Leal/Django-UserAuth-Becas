@@ -49,6 +49,7 @@ CORS_ORIGIN_WHITELIST = (
     'exp://192.168.20.172:19000',
     'exp://wc-f6v.anonymous.my-project.exp.direct:80'
     'http://192.168.20.60:19006',
+    'restframeworkbecasandlogin.herokuapp.com',
     
 )
 
@@ -153,6 +154,7 @@ ACCOUNT_UNIQUE_EMAIL = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:19006',
+    'restframeworkbecasandlogin.herokuapp.com',
 ]
 
 ALLOWED_HOSTS = [
@@ -164,6 +166,7 @@ ALLOWED_HOSTS = [
     '192.168.20.172',
     '192.168.20.60',
     '10.38.1.215',
+    'restframeworkbecasandlogin.herokuapp.com',
 ]
 
 #ALLOWED_HOSTS=['*']
